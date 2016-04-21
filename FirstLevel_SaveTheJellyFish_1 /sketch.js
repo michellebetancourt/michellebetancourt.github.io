@@ -19,7 +19,7 @@ function preload() {
   //pass the first and the last file name and it will try to find the ones in between
   medani = loadAnimation("assets/1.png", "assets/52.png");
   tibani = loadAnimation("assets/mt1.png", "assets/mt16.png");
-  fond = loadImage("assets/ FondoNivel1.1.jpg");
+  fond = loadImage("assets/ FondoNivel1.jpg");
   gover = loadImage("assets/GameOver copia.png");
   // coralImg = loadImage("assets/ob1.png");
 
@@ -129,8 +129,8 @@ function draw() {
     }
 
 
-    piso = createSprite(random(width, 0), random(0, height));
-    piso.addImage(loadImage("assets/ob5.png"));
+    // piso = createSprite(random(width, 0), random(0, height));
+    // piso.addImage(loadImage("assests/ob5.png"));
 
 
     for (var i = 0; i < corales.length; i++)
